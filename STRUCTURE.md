@@ -101,7 +101,7 @@ Core projects follow TW3 structural requirements directly. Their governance, rol
 
 Independent DAOs that follow TW3 principles but govern themselves. A sovereign project may have originated in TW3 discussions, been forked from a TW3 core project, or been built entirely outside TW3.
 
-TW3 does not own sovereign projects. It can invest in them through community vote, but investment does not grant TW3 governance authority over the project. The project must meet TW3 structural requirements to qualify for support, but how it implements those requirements is its own decision.
+TW3 does not own sovereign projects. It can invest in them through community vote, but investment does not necessicarily grant TW3 governance authority above any other investor. The project must meet TW3 structural requirements to qualify for support, but how it implements those requirements is its own decision.
 
 Past support does not guarantee future support. Each request for TW3 investment is evaluated on its current alignment with TW3 principles.
 
