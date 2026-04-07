@@ -195,9 +195,10 @@ No amendment may contradict [PHILOSOPHY.md](PHILOSOPHY.md). If a proposed govern
 ### Hierarchy of authority
 
 1. **[PHILOSOPHY.md](PHILOSOPHY.md)** — source of truth, highest authority
-2. **[STRUCTURE.md](STRUCTURE.md)** — defines the pieces, implements the philosophy
-3. **This document (GOVERNANCE.md)** — defines the mechanics, implements the structure
-4. **Smart contracts and code** — implements the governance
+2. **[POSTULATES.md](POSTULATES.md)** — formal axioms derived from the philosophy
+3. **[STRUCTURE.md](STRUCTURE.md)** — defines the pieces, implements the philosophy and postulates
+4. **This document (GOVERNANCE.md)** — defines the mechanics, implements the structure
+5. **Smart contracts and code** — implements the governance
 
 If any lower layer conflicts with a higher layer, the lower layer must change.
 
