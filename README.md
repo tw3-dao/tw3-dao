@@ -10,9 +10,9 @@ The following documents implement the philosophy. They will be linked here as th
 
 | Document | Purpose | Status |
 |----------|---------|--------|
-| [PHILOSOPHY.md](PHILOSOPHY.md) | Core beliefs, values, and principles | Active |
-| GOVERNANCE.md | Voting mechanics, treasury policy, DAO structure requirements, conflict resolution | Planned |
+| [PHILOSOPHY.md](PHILOSOPHY.md) | Core beliefs, values, and principles — the source of truth | Active |
+| [STRUCTURE.md](STRUCTURE.md) | Roles, token model, project types, lifecycle, and structural principles for all TW3-aligned DAOs | Active |
+| GOVERNANCE.md | Voting mechanics, treasury policy, deadlock resolution, elections, accountability | Planned |
 | POSTULATES.md | Community-ratified axioms that formalize TW3 principles | Planned |
 | CONTRIBUTING.md | How to contribute to this repo and TW3 projects | Planned |
 | CODING.md | Coding standards and practices for TW3 projects | Planned |
-| STRUCTURE.md | Organizational roles, project lifecycle, and how sovereign projects relate to TW3 | Planned |
