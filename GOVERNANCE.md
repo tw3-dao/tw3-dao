@@ -1,6 +1,6 @@
 # TW3 Governance
 
-This document defines how decisions are made within TW3 and TW3-aligned DAOs. It builds on the roles and relationships defined in [STRUCTURE.md](STRUCTURE.md) and serves the principles established in [PHILOSOPHY.md](PHILOSOPHY.md).
+This document defines how decisions are made within TW3 and TW3-aligned DAOs. It builds on the roles and relationships defined in [STRUCTURE.md](STRUCTURE.md) and serves the principles established in [PHILOSOPHY.md](PHILOSOPHY.md) and [POSTULATES.md](POSTULATES.md).
 
 Where a governance mechanic produces outcomes that contradict the philosophy, the mechanic must change.
 
@@ -134,28 +134,15 @@ The specific thresholds for spending authority (e.g., small operational expenses
 
 ## Token minting
 
-Economic tokens enter circulation through two paths:
+Economic tokens enter circulation through contributor mining (earning tokens through labor) and investor minting (depositing capital to the treasury via a bonding curve). The full token model — supply cap, halving schedule, bonding curve mechanics, liquidity phases, yield distribution, and minting safeguards — is defined in [TOKENOMICS.md](TOKENOMICS.md).
 
-### Contributor mining
-
-Contributors earn economic tokens through labor. The rate at which tokens are earned relative to work performed is a governance parameter. This is the primary source of new tokens and ensures that the people who build the project hold the largest initial economic stake.
-
-### Investor minting
-
-Investors mint new economic tokens by depositing capital directly to the treasury. This allows the project to raise funds for expenses (domains, hosting, vendor costs) independently from contributor labor.
-
-The recommended pricing mechanism is a bonding curve — an automated function where the mint price increases as more tokens are minted. This is self-regulating: early investors get lower prices (compensating for higher risk on an unproven project), later investors pay more (reflecting lower risk on a proven project). No oracle or external market is required.
-
-As a project matures and its economic token trades on decentralized exchanges, the minting mechanism can migrate from a bonding curve to oracle-based market pricing through a governance proposal.
-
-### Minting safeguards
-
-- **Rate caps** — maximum tokens minted per time period, preventing supply flooding.
-- **Curve parameters set by supermajority** — existing token holders must approve the terms under which their stake is diluted.
-- **Treasury-direct** — minted funds go to the project treasury, never to individuals.
-- **Optional vesting** — the community may impose a vesting period on minted tokens to prevent buy-and-dump behavior.
-
-Minting parameters (curve shape, rate caps, vesting terms) are governance parameters adjustable by supermajority vote.
+From a governance perspective, the following token parameters are adjustable by supermajority vote:
+- Reward rates and halving decay divisor
+- Bonding curve shape and steepness
+- Minting rate caps
+- Vesting periods on minted tokens
+- Yield allocation percentages
+- LP deployment constraints
 
 ## On-chain governance
 
@@ -198,7 +185,8 @@ No amendment may contradict [PHILOSOPHY.md](PHILOSOPHY.md). If a proposed govern
 2. **[POSTULATES.md](POSTULATES.md)** — formal axioms derived from the philosophy
 3. **[STRUCTURE.md](STRUCTURE.md)** — defines the pieces, implements the philosophy and postulates
 4. **This document (GOVERNANCE.md)** — defines the mechanics, implements the structure
-5. **Smart contracts and code** — implements the governance
+5. **[TOKENOMICS.md](TOKENOMICS.md)** — defines the economic model, implements structure and governance
+6. **Smart contracts and code** — implements all of the above
 
 If any lower layer conflicts with a higher layer, the lower layer must change.
 

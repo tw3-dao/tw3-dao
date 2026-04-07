@@ -1,6 +1,6 @@
 # TW3 Tokenomics
 
-This document defines the economic model for TW3 — how tokens are created, distributed, valued, and how they flow between participants. It implements the roles defined in [STRUCTURE.md](STRUCTURE.md) and operates under the mechanics defined in [GOVERNANCE.md](GOVERNANCE.md).
+This document defines the economic model for TW3 — how tokens are created, distributed, valued, and how they flow between participants. It serves the principles in [PHILOSOPHY.md](PHILOSOPHY.md) and [POSTULATES.md](POSTULATES.md), implements the roles defined in [STRUCTURE.md](STRUCTURE.md), and operates under the mechanics defined in [GOVERNANCE.md](GOVERNANCE.md).
 
 The specific rate schedule (points per action) is maintained separately as a governance-adjustable parameter set. This document defines the economic system; the rate schedule sets the dials.
 

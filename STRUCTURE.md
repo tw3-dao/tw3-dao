@@ -2,7 +2,7 @@
 
 This document defines the roles, relationships, and project types that make up TW3 and the DAOs it supports. It describes *what the pieces are* — how decisions are made with those pieces is covered in [GOVERNANCE.md](GOVERNANCE.md).
 
-Everything here implements the [Philosophy](PHILOSOPHY.md). Where a structural detail conflicts with a philosophical principle, the philosophy wins.
+Everything here implements the [Philosophy](PHILOSOPHY.md) and the [Postulates](POSTULATES.md). Where a structural detail conflicts with either, the higher-authority document wins.
 
 ## Three types of value
 
@@ -47,10 +47,11 @@ Contributor voice dilutes as more contributors join. An early contributor who wr
 
 ### Investors
 
-Investors fund the project by acquiring economic tokens. There are two paths:
+Investors fund the project by acquiring economic tokens. There are three paths:
 
 1. **Buy economic tokens** from contributors who choose to sell them.
 2. **Hire contributors** — pay their salary, receive their economic tokens and contribution points. This is contributing through enterprise: the investor funds the labor and receives the tokens that labor earns.
+3. **Mint new tokens** — deposit capital directly to the treasury in exchange for newly minted economic tokens, priced by a bonding curve. See [TOKENOMICS.md](TOKENOMICS.md) for the full minting model.
 
 Investors must stake their tokens to participate in governance. Staked tokens cannot be transferred until the vote they are committed to is resolved, preventing manipulation through vote-and-sell tactics.
 
@@ -150,4 +151,4 @@ Not every DAO needs to mirror TW3's exact structure. Different projects serve di
 
 ---
 
-Voting mechanics, deadlock resolution, election procedures, token staking rules, treasury policy, and accountability processes are defined in [GOVERNANCE.md](GOVERNANCE.md).
+Voting mechanics, deadlock resolution, election procedures, treasury policy, and accountability processes are defined in [GOVERNANCE.md](GOVERNANCE.md). The full token model — halving schedule, bonding curve, liquidity phases, yield distribution, and fork transitions — is defined in [TOKENOMICS.md](TOKENOMICS.md).

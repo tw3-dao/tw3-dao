@@ -12,7 +12,8 @@ Postulates sit between the philosophy and the structure in TW3's hierarchy of au
 2. **This document (POSTULATES.md)** — formal axioms derived from the philosophy
 3. **[STRUCTURE.md](STRUCTURE.md)** — roles and relationships
 4. **[GOVERNANCE.md](GOVERNANCE.md)** — decision-making mechanics
-5. **Smart contracts and code** — implementation
+5. **[TOKENOMICS.md](TOKENOMICS.md)** — economic model and token mechanics
+6. **Smart contracts and code** — implementation
 
 Postulates may only be added, removed, or amended through a governance proposal that demonstrates the change better aligns with the philosophy. A postulate that contradicts the philosophy is invalid regardless of whether it was ratified by vote.
 

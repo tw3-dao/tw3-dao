@@ -68,10 +68,10 @@ If your instinct is to capture rather than to share, this is not your community.
 
 ## This document as source of truth
 
-This philosophy is the foundation. Governance mechanics, voting procedures, smart contracts, and organizational structures are implementations of these principles — they serve this document, not the other way around.
+This philosophy is the foundation. Postulates, structural definitions, governance mechanics, tokenomics, and smart contracts are all implementations of these principles — they serve this document, not the other way around.
 
 If our code, contracts, or practices ever permit outcomes that contradict what is written here — unintended centralization, extracted value, silenced stakeholders — it is the implementation that must change, not the philosophy.
 
 ---
 
-Governance mechanics, coding practices, and organizational structure will be maintained in companion documents linked from the [README](README.md).
+All companion documents — postulates, structure, governance, tokenomics, coding practices, and contribution guidelines — are linked from the [README](README.md).
