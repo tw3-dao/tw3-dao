@@ -1,0 +1,33 @@
+# Changelog
+
+All notable changes to the TW3 DAO organizational repository will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
+
+## [Unreleased]
+
+### Added
+
+- CONTRIBUTING.md — universal contributing guide for all TW3 repos
+- RATE_SCHEDULE.md — governance-adjustable token reward rates per contribution type
+- .github/PULL_REQUEST_TEMPLATE.md — standard PR template
+- .github/ISSUE_TEMPLATE/bug_report.md — bug report template
+- .github/ISSUE_TEMPLATE/feature_request.md — feature request template
+- .github/DISCUSSION_TEMPLATE/project-proposal.md — standard project proposal format
+- .github/DISCUSSION_TEMPLATE/governance-proposal.md — governance proposal format
+
+## [0.1.0] - 2026-04-07
+
+### Added
+
+- PHILOSOPHY.md — core beliefs, values, and principles (source of truth)
+- POSTULATES.md — ten community-ratified axioms formalizing TW3 principles
+- STRUCTURE.md — roles, token model, project types, lifecycle, and structural principles
+- GOVERNANCE.md — voting model, proposal tiers, treasury, admin elections, amendments
+- TOKENOMICS.md — dual-token model, halving schedule, bonding curve, liquidity phases, yield, fork transitions
+- README.md — companion documents table linking all organizational docs
+- LICENSE — AGPL-3.0
+
+### Changed
+
+- Cross-document consistency review: unified hierarchy of authority across POSTULATES, GOVERNANCE, and TOKENOMICS; added TOKENOMICS to all hierarchy listings; fixed STRUCTURE investor paths; corrected typos

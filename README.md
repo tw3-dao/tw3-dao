@@ -15,5 +15,6 @@ The following documents implement the philosophy. They will be linked here as th
 | [STRUCTURE.md](STRUCTURE.md) | Roles, token model, project types, lifecycle, and structural principles for all TW3-aligned DAOs | Active |
 | [GOVERNANCE.md](GOVERNANCE.md) | Voting model, proposal tiers, treasury, token minting, admin elections, amendments | Active |
 | [TOKENOMICS.md](TOKENOMICS.md) | Dual-token model, halving schedule, bonding curve, liquidity phases, yield, fork transitions | Active |
-| CONTRIBUTING.md | How to contribute to this repo and TW3 projects | Planned |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute to all TW3 projects — onboarding, workflow, PR process, token rewards | Active |
+| [RATE_SCHEDULE.md](RATE_SCHEDULE.md) | Governance-adjustable token reward rates per contribution type | Active |
 | CODING.md | Coding standards and practices for TW3 projects | Planned |
