@@ -8,6 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Added
 
+- CODING.md — coding standards for all TW3 projects (Solidity, TypeScript, general principles)
+- .github/REPO_SETUP.md — admin checklist for initializing new TW3 repositories
+
+## [0.2.0] - 2026-04-07
+
+### Added
+
 - CONTRIBUTING.md — universal contributing guide for all TW3 repos
 - RATE_SCHEDULE.md — governance-adjustable token reward rates per contribution type
 - .github/PULL_REQUEST_TEMPLATE.md — standard PR template

@@ -17,4 +17,4 @@ The following documents implement the philosophy. They will be linked here as th
 | [TOKENOMICS.md](TOKENOMICS.md) | Dual-token model, halving schedule, bonding curve, liquidity phases, yield, fork transitions | Active |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute to all TW3 projects — onboarding, workflow, PR process, token rewards | Active |
 | [RATE_SCHEDULE.md](RATE_SCHEDULE.md) | Governance-adjustable token reward rates per contribution type | Active |
-| CODING.md | Coding standards and practices for TW3 projects | Planned |
+| [CODING.md](CODING.md) | Coding standards and practices for all TW3 projects (Solidity, TypeScript, general) | Active |
