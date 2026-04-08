@@ -13,7 +13,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Changed
 
-- CONTRIBUTING.md — replaced git-registry prerequisite with tw3-profile fork-and-edit workflow as the current identity method; moved git-registry to future roadmap section; added note clarifying GitHub as the current operational medium
+- CONTRIBUTING.md — replaced git-registry prerequisite with tw3-profile fork-and-edit workflow as the current identity method; moved git-registry to future roadmap section; added note clarifying GitHub as the current operational medium; clarified that profiles are optional and anonymous contributions are allowed with deferred reward claims
 
 ## [0.2.0] - 2026-04-07
 

@@ -16,9 +16,13 @@ Nothing in these docs requires GitHub permanently. Every process described here 
 
 All TW3 activity currently happens on GitHub. You need an account to participate in discussions, file issues, submit code, and earn contribution tokens.
 
-### TW3 profile
+### TW3 profile (optional)
 
-To receive token rewards, you need to link your GitHub identity to an Ethereum-compatible wallet. This is done through the [tw3-profile](https://github.com/TechnicallyWeb3/tw3-profile) repository:
+A TW3 profile is **not required to contribute**. Anonymous contributions are welcome — if you have a GitHub account, you can participate in discussions, file issues, and submit code without linking a wallet.
+
+However, to **receive token rewards**, you need to link your GitHub identity to an Ethereum-compatible wallet. Rewards are tracked by GitHub account regardless of profile status, so you can contribute now and claim later by creating a profile at any time. Nothing is lost.
+
+To set up a profile, use the [tw3-profile](https://github.com/TechnicallyWeb3/tw3-profile) repository:
 
 1. **Fork** the `tw3-profile` repo to your own GitHub account.
 2. **Edit** your profile with your wallet address and a wallet signature (the signature proves you control the address and prevents unauthorized claims).
@@ -26,8 +30,6 @@ To receive token rewards, you need to link your GitHub identity to an Ethereum-c
 4. **Submit** your fork. The signed data in your profile serves as your identity claim.
 
 The profile repo includes tooling to connect a hot or cold wallet for signing. Early versions may use local signing (`.env`-based private keys or mnemonics); future versions will support browser-based wallet connections to avoid private key exposure.
-
-This fork-and-edit approach works today with no blockchain dependency. It's the simplest path to ensuring every contributor has a verified wallet address for token distribution.
 
 ### Future: on-chain identity registry
 
