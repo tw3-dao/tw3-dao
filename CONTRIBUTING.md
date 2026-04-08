@@ -4,31 +4,41 @@ This guide applies to all repositories under the TW3 organization. It covers how
 
 Read the [Philosophy](PHILOSOPHY.md) first. If you don't share the values described there, this isn't the right community for you. If you do, welcome — there's work to be done.
 
+## A note on GitHub as the current medium
+
+TW3 operates on GitHub today because it's where the community already lives — it provides discussions, version control, issue tracking, and an identity system that works right now. But GitHub is just the current vehicle. The DAO's principles don't depend on any single platform. As the community builds more decentralized infrastructure — on-chain registries, decentralized hosting, protocol-native governance — TW3 will migrate to those tools. We're building the plane while flying it, and GitHub is the runway we're using to take off.
+
+Nothing in these docs requires GitHub permanently. Every process described here is designed to be replicated on any platform that supports the same workflows.
+
 ## Prerequisites
 
 ### GitHub account
 
-All TW3 activity happens on GitHub. You need an account to participate in discussions, file issues, submit code, and earn contribution tokens.
+All TW3 activity currently happens on GitHub. You need an account to participate in discussions, file issues, submit code, and earn contribution tokens.
 
-### Web3 wallet
+### TW3 profile
 
-You need an Ethereum-compatible wallet to sign data and link your GitHub identity to a crypto address. This is how contributions are tied to on-chain token rewards.
+To receive token rewards, you need to link your GitHub identity to an Ethereum-compatible wallet. This is done through the [tw3-profile](https://github.com/TechnicallyWeb3/tw3-profile) repository:
 
-### Identity registration
+1. **Fork** the `tw3-profile` repo to your own GitHub account.
+2. **Edit** your profile with your wallet address and a wallet signature (the signature proves you control the address and prevents unauthorized claims).
+3. **Customize** optional details — display name (defaults to your GitHub username), profile image (defaults to your GitHub avatar), bio (defaults to your GitHub bio).
+4. **Submit** your fork. The signed data in your profile serves as your identity claim.
 
-TW3 uses a decentralized social consensus mechanism to verify contributor identities — no centralized login portal, no single point of control.
+The profile repo includes tooling to connect a hot or cold wallet for signing. Early versions may use local signing (`.env`-based private keys or mnemonics); future versions will support browser-based wallet connections to avoid private key exposure.
 
-The process uses the [git-registry](https://github.com/TechnicallyWeb3/git-registry) project:
+This fork-and-edit approach works today with no blockchain dependency. It's the simplest path to ensuring every contributor has a verified wallet address for token distribution.
 
-1. Create a request to associate your wallet with your GitHub ID.
-2. A community validator issues a challenge.
-3. You create a repository with signed data proving control of both your wallet and GitHub account.
-4. The validator forks your proof repo and signs off, confirming the association.
-5. Multiple validators can validate the same claim. The wallet with the most signoffs is considered the consensus owner.
+### Future: on-chain identity registry
 
-Validators earn tokens for registering users. False registrations can be challenged with a stake-based mechanism.
+The long-term goal is the [git-registry](https://github.com/TechnicallyWeb3/git-registry) project — a decentralized social consensus registry that lives on-chain:
 
-While the registry is being built out, GitHub API-based verification serves as an interim solution. The goal is full on-chain identity verification.
+1. A contributor requests to associate their wallet with their GitHub ID.
+2. Community validators issue challenges and verify the claim through signed proof repos.
+3. The wallet with the most validator signoffs is considered the consensus owner.
+4. Validators earn tokens for registrations. False claims are challenged via a stake-based mechanism.
+
+The `tw3-profile` fork-and-edit system serves as the bridge until the on-chain registry is operational. Profile data will migrate to the registry contract when it launches — no contributor loses their history.
 
 ## Your first contribution
 
