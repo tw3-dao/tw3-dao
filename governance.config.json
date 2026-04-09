@@ -1,0 +1,16 @@
+{
+  "branch_thresholds": {
+    "development": 0.10,
+    "staging": 0.50,
+    "production": 0.66,
+    "main": 0.66
+  },
+  "reward_hold_days": 7,
+  "support_threshold": 0.10,
+  "supermajority": 0.66,
+  "voting_periods": {
+    "standard_days": 7,
+    "urgent_hours": 48,
+    "governance_days": 30
+  }
+}
