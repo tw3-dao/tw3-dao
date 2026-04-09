@@ -1,18 +1,20 @@
 ---
 name: Admin Election
-about: Nominate, remove, or change an admin
-title: "[ADMIN] Add/Remove/Change: @username"
-labels: governance
+about: Nominate, remove, or replace an admin
+title: "[ADMIN] Nominate/Remove/Replace: @username"
+labels: governance, election
+type: election
 assignees: ''
 ---
 
 ## Action
 
 <!-- Replace the title above with exactly ONE of the following formats:
-  [ADMIN] Add: @username
+  [ADMIN] Nominate: @username
   [ADMIN] Remove: @username
-  [ADMIN] Change: @username
+  [ADMIN] Replace: @username
 -->
+[ ] Replaced username and selected action
 
 ## Nominee / subject
 
@@ -38,10 +40,10 @@ assignees: ''
 
 ## Acceptance
 
-<!-- FOR THE NOMINEE: If you accept this nomination, post a comment below confirming
-     that you have read ADMIN_RESPONSIBILITIES.md and accept the role. Your acceptance
-     comment becomes the voting anchor — the community votes with 👍 or 👎 reactions
-     on that comment. See ADMIN_ELECTIONS.md for the full process. -->
+**FOR THE NOMINEE:** If you accept this nomination, post a comment "I accept" below
+     confirming that you have read [ADMIN_RESPONSIBILITIES.md](https://github.com/tw3-dao/tw3-dao/blob/production/ADMIN_RESPONSIBILITIES.md) and accept the role. Your
+     acceptance comment becomes the voting anchor — the community votes with 👍 or 👎
+     reactions on that comment. See [ADMIN_ELECTIONS.md](https://github.com/tw3-dao/tw3-dao/blob/production/ADMIN_ELECTIONS.md) for the full process.
 
 ## Additional context
 
