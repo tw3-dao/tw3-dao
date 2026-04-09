@@ -22,7 +22,7 @@ The `term_months` field defines the default term length in months (currently 36)
 
 ## Issue format
 
-All admin elections use GitHub issues in this repository with the `[ADMIN]` tag in the title. The title must include one of the following action prefixes:
+All admin elections use GitHub issues in this repository with the `[ADMIN]` tag in the title. Use the [admin election issue template](.github/ISSUE_TEMPLATE/admin_election.md) when opening the issue. The title must include one of the following action prefixes:
 
 - **`[ADMIN] Add: @username`** — nominate a new admin
 - **`[ADMIN] Remove: @username`** — propose removal of an existing admin
