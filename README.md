@@ -18,3 +18,5 @@ The following documents implement the philosophy. They will be linked here as th
 | [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute to all TW3 projects — onboarding, workflow, PR process, token rewards | Active |
 | [RATE_SCHEDULE.md](RATE_SCHEDULE.md) | Governance-adjustable token reward rates per contribution type | Active |
 | [CODING.md](CODING.md) | Coding standards and practices for all TW3 projects (Solidity, TypeScript, general) | Active |
+| [ADMIN_RESPONSIBILITIES.md](ADMIN_RESPONSIBILITIES.md) | Operational responsibilities, branch promotion thresholds, version management, farming detection | Active |
+| [governance.config.json](governance.config.json) | Machine-readable governance parameter values referenced by the above documents | Active |

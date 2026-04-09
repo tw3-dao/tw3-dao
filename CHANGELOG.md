@@ -8,6 +8,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Added
 
+- ADMIN_RESPONSIBILITIES.md — operational responsibilities for TW3 admins: branch promotion thresholds, version management, farming detection, onboarding checklist, self-approval rule, reward hold period, steward actions
+- governance.config.json — machine-readable governance parameter values (branch thresholds, voting periods, reward hold, support threshold, supermajority)
 - CODING.md — coding standards for all TW3 projects (Solidity, TypeScript, general principles)
 - .github/REPO_SETUP.md — admin checklist for initializing new TW3 repositories
 
