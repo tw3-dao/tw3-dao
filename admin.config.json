@@ -1,0 +1,10 @@
+{
+  "term_months": 36,
+  "admins": [
+    {
+      "username": "TechnicallyWeb3",
+      "permissions": ["full"],
+      "elected": "2026-04-08"
+    }
+  ]
+}
