@@ -8,10 +8,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Added
 
-- Added @ChrisHashing as admin including election process for alignment with governance
 - Added @MichaelHDesigns as admins including demo election to demonstrate the election in issue #5
 - admin.config.json — machine-readable admin roster with term length, permissions, and election dates
-- ADMIN_ELECTIONS.md — interim GitHub-based admin election process: nomination via [ADMIN] issues, acceptance, reaction-based voting, PR ratification, term and re-election rules
+- ADMIN_ELECTIONS.md — interim GitHub-based admin election process: nomination via [ADMIN] issues, acceptance, reaction-based voting, PR ratification, term and re-election rules; clarified nomination event status and added branch naming convention for ratification
 - .github/ISSUE_TEMPLATE/admin_election.md — issue template for admin nominations, removals, and permission changes
 - ADMIN_RESPONSIBILITIES.md — operational responsibilities for TW3 admins: branch promotion thresholds, version management, farming detection, onboarding checklist, self-approval rule, reward hold period, steward actions
 - governance.config.json — machine-readable governance parameter values (branch thresholds, voting periods, reward hold, support threshold, supermajority)

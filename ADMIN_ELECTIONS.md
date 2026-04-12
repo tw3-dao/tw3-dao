@@ -35,7 +35,7 @@ The issue body must include:
 
 ## Nomination
 
-Any community member may open an `[ADMIN]` issue to nominate a new admin, propose a removal, or propose changes. Self-nomination is permitted.
+Any community member may open an `[ADMIN]` issue to nominate a new admin, propose a removal, or propose changes. Self-nomination is permitted. A nomination is considered an Admin Election event; use the [admin election issue template](.github/ISSUE_TEMPLATE/admin_election.md) and adjust as needed.
 
 Before accepting a nomination, the nominee should confirm they have reviewed the responsibilities by reading [ADMIN_RESPONSIBILITIES.md](ADMIN_RESPONSIBILITIES.md) and completing the "Before you accept" checklist described there.
 
@@ -76,8 +76,8 @@ The threshold is calculated as: `👍 / (👍 + 👎)` after removing nullified 
 
 When the voting threshold is met after the voting period closes:
 
-1. A community member opens a pull request updating [admin.config.json](admin.config.json) to reflect the election result — adding, removing, or modifying the relevant admin entry.
-2. The PR follows the standard branch promotion and approval process defined in [CONTRIBUTING.md](CONTRIBUTING.md) and [ADMIN_RESPONSIBILITIES.md](ADMIN_RESPONSIBILITIES.md).
+1. A community member opens a pull request updating [admin.config.json](admin.config.json) to reflect the election result — adding, removing, or modifying the relevant admin entry. All ratification PRs must use the `chore(admin)` type.
+2. The PR follows the standard branch promotion and approval process defined in [CONTRIBUTING.md](CONTRIBUTING.md) and [ADMIN_RESPONSIBILITIES.md](ADMIN_RESPONSIBILITIES.md). Use the preferred branch naming pattern `chore/[issue-id]_[issue-title]` to associate the PR with the election issue.
 3. The PR description must link to the originating `[ADMIN]` issue.
 
 This creates a double confirmation: the community votes once in the election and once through the PR approval process. Both must pass for the change to take effect.
